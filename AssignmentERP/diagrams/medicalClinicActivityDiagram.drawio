@@ -1,0 +1,223 @@
+<mxfile host="app.diagrams.net" modified="2024-03-30T23:25:26.321Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="0p7YCrLWR-vWte9jhpeP" version="24.1.0" type="device">
+  <diagram name="Page-1" id="mnRjHzE-l8GOrrgTSnuF">
+    <mxGraphModel dx="1151" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IlUl-RWda48VHLyolycJ-1" value="&lt;font color=&quot;#941100&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;&lt;i&gt;&lt;u&gt;&lt;font style=&quot;font-size: 27px;&quot;&gt;Activity Diagram &lt;/font&gt;&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="190" y="20" width="439" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-2" value="" style="ellipse;html=1;shape=startState;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;direction=south;fillColor=#000033;" vertex="1" parent="1">
+          <mxGeometry x="409" y="130" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-3" value="Login" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="365" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-4" value="Yes" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-6" target="IlUl-RWda48VHLyolycJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-2" target="IlUl-RWda48VHLyolycJ-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="200" as="sourcePoint" />
+            <mxPoint x="425" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-6" value="Is patient registered" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="372.25" y="255" width="103.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-12" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-6" target="IlUl-RWda48VHLyolycJ-13">
+          <mxGeometry x="-0.0323" y="-10" relative="1" as="geometry">
+            <mxPoint x="435" y="210" as="sourcePoint" />
+            <mxPoint x="230" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="385" y="310" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-13" value="Register" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="110" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-13" target="IlUl-RWda48VHLyolycJ-3">
+          <mxGeometry x="-0.0323" y="-10" relative="1" as="geometry">
+            <mxPoint x="395" y="320" as="sourcePoint" />
+            <mxPoint x="230" y="500" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-16" value="Chοοse Appointment Date" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="364" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-29" value="Update" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="292.25" y="1290" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-30" value="Cancel" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="476.75" y="1290" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-31" value="Book" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="386.5" y="1290" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-37" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-19" target="IlUl-RWda48VHLyolycJ-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1220" as="sourcePoint" />
+            <mxPoint x="454.52" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="424" y="1240" />
+              <mxPoint x="424" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-39" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;exitX=0.779;exitY=0.295;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-19" target="IlUl-RWda48VHLyolycJ-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="569.52" y="830" as="sourcePoint" />
+            <mxPoint x="570" y="957" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="518" y="1270" />
+              <mxPoint x="518" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-41" value="" style="shape=line;html=1;strokeWidth=6;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="260.5" y="1440" width="239.5" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-42" value="Chοοse Medical Examination" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="364" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-43" value="Set Appointment" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="365" y="800" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-45" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-3" target="IlUl-RWda48VHLyolycJ-51">
+          <mxGeometry x="0.0558" y="20" relative="1" as="geometry">
+            <mxPoint x="399.47" y="520" as="sourcePoint" />
+            <mxPoint x="399.47" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="570" />
+              <mxPoint x="425" y="570" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-30" target="IlUl-RWda48VHLyolycJ-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1120" as="sourcePoint" />
+            <mxPoint x="694.393398282202" y="1225.606601717798" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="1350" />
+              <mxPoint x="520" y="1645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-47" value="" style="ellipse;html=1;shape=endState;fillColor=#000033;strokeColor=#001DBC;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#ffffff;align=center;" vertex="1" parent="1">
+          <mxGeometry x="365.25" y="1630" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-50" value="Logout" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="340.25" y="1520" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-51" value="Is username and password correct " style="rhombus;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="365" y="590" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-52" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-51" target="IlUl-RWda48VHLyolycJ-3">
+          <mxGeometry x="-0.0027" relative="1" as="geometry">
+            <mxPoint x="520.0000000000002" y="480.05000000000024" as="sourcePoint" />
+            <mxPoint x="680" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="655" />
+              <mxPoint x="600" y="490" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-55" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-51" target="IlUl-RWda48VHLyolycJ-43">
+          <mxGeometry x="0.0558" y="20" relative="1" as="geometry">
+            <mxPoint x="491.5" y="720" as="sourcePoint" />
+            <mxPoint x="425" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="780" />
+              <mxPoint x="425" y="780" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-57" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IlUl-RWda48VHLyolycJ-55">
+          <mxGeometry x="0.2389" y="3" relative="1" as="geometry">
+            <mxPoint x="9" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-58" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-43" target="IlUl-RWda48VHLyolycJ-42">
+          <mxGeometry x="0.0558" y="20" relative="1" as="geometry">
+            <mxPoint x="425" y="900" as="sourcePoint" />
+            <mxPoint x="425" y="970" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-64" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-42" target="IlUl-RWda48VHLyolycJ-16">
+          <mxGeometry x="0.0558" y="20" relative="1" as="geometry">
+            <mxPoint x="540" y="1030" as="sourcePoint" />
+            <mxPoint x="425" y="1040" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-19" value="" style="shape=line;html=1;strokeWidth=6;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="260.5" y="1220" width="319.5" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-68" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.214;exitY=0.405;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-19" target="IlUl-RWda48VHLyolycJ-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="332" y="1270" as="sourcePoint" />
+            <mxPoint x="273.25" y="1290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="332" y="1224" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-69" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;entryX=0.287;entryY=0.247;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IlUl-RWda48VHLyolycJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="331" y="1350" as="sourcePoint" />
+            <mxPoint x="361" y="1420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="331" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-71" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;entryX=0.704;entryY=0.405;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IlUl-RWda48VHLyolycJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1350" as="sourcePoint" />
+            <mxPoint x="430" y="1420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="1396" />
+              <mxPoint x="429" y="1410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-73" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-41" target="IlUl-RWda48VHLyolycJ-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="461" y="1486" as="sourcePoint" />
+            <mxPoint x="460" y="1580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1480" />
+              <mxPoint x="380" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-74" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-50" target="IlUl-RWda48VHLyolycJ-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360.45" y="1604.9999999999995" as="sourcePoint" />
+            <mxPoint x="420.25" y="1695" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1630" />
+              <mxPoint x="380" y="1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlUl-RWda48VHLyolycJ-78" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IlUl-RWda48VHLyolycJ-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="423.99999999999994" y="1140" as="sourcePoint" />
+            <mxPoint x="424" y="1220" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

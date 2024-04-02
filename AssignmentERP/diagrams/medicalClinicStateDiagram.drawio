@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" modified="2024-03-30T20:44:57.539Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="eLmOmPGLYsyBg-Busc-Z" version="24.1.0" type="device">
+  <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
+    <mxGraphModel dx="2922" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="382b91b5511bd0f7-1" value="" style="ellipse;html=1;shape=startState;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;direction=south;fillColor=#000033;" parent="1" vertex="1">
+          <mxGeometry x="-290" y="135" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="382b91b5511bd0f7-5" value="Appointment Kept" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="390" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="382b91b5511bd0f7-6" value="Login" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="90" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="382b91b5511bd0f7-7" value="Changed Appointment" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="910" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="382b91b5511bd0f7-9" value="Appointment Booked" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="900" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="382b91b5511bd0f7-10" value="Canceled Appointment" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="479.5" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2a3bc250acf0617d-9" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;" parent="1" source="382b91b5511bd0f7-1" target="382b91b5511bd0f7-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2a3bc250acf0617d-12" value="Patient Meets Doctor" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;exitDx=0;exitDy=0;fillColor=#0050ef;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="382b91b5511bd0f7-9" target="382b91b5511bd0f7-5" edge="1">
+          <mxGeometry x="0.1273" y="10" relative="1" as="geometry">
+            <mxPoint x="880" y="392.5" as="sourcePoint" />
+            <mxPoint x="440" y="392.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="350" />
+              <mxPoint x="530" y="350" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-1" value="&lt;font color=&quot;#941100&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;&lt;i&gt;&lt;u&gt;&lt;font style=&quot;font-size: 27px;&quot;&gt;State Diagram &lt;/font&gt;&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="140" y="10" width="439" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24f968d109e7d6b4-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000033;strokeColor=#001DBC;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#ffffff;align=center;" parent="1" vertex="1">
+          <mxGeometry x="260" y="730" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-7" value="Patient Request Appointment" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;exitDx=0;exitDy=0;fillColor=#0050ef;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="382b91b5511bd0f7-6" target="382b91b5511bd0f7-9">
+          <mxGeometry x="-0.2488" y="10" relative="1" as="geometry">
+            <mxPoint x="590" y="320" as="sourcePoint" />
+            <mxPoint x="580" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-8" value="Cancel Appointment " style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#0050ef;" edge="1" parent="1" source="382b91b5511bd0f7-9" target="382b91b5511bd0f7-10">
+          <mxGeometry x="0.1233" y="-10" relative="1" as="geometry">
+            <mxPoint x="1040" y="358" as="sourcePoint" />
+            <mxPoint x="680" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1150" y="350" />
+              <mxPoint x="1150" y="670" />
+              <mxPoint x="670" y="670" />
+              <mxPoint x="670" y="620" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-9" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;labelBackgroundColor=none;endArrow=open;endSize=8;fontFamily=Verdana;fontSize=12;align=left;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="382b91b5511bd0f7-10" target="24f968d109e7d6b4-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479.5" y="555" as="sourcePoint" />
+            <mxPoint x="479.5" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-13" value="Examination Received" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-15" value="Request Appointment Change" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=top;exitX=0.583;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#0050ef;" edge="1" parent="1" source="382b91b5511bd0f7-9" target="382b91b5511bd0f7-7">
+          <mxGeometry x="0.1351" relative="1" as="geometry">
+            <mxPoint x="970" y="400" as="sourcePoint" />
+            <mxPoint x="1020" y="625" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="970" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-18" value="Patient Meets Doctor" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#0050ef;" edge="1" parent="1" source="382b91b5511bd0f7-7" target="382b91b5511bd0f7-5">
+          <mxGeometry x="-0.2488" y="10" relative="1" as="geometry">
+            <mxPoint x="910" y="550" as="sourcePoint" />
+            <mxPoint x="400" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-19" value="Receive Examination" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#0050ef;" edge="1" parent="1" source="382b91b5511bd0f7-5" target="KeRvzegLbMq9LQUjmtA0-13">
+          <mxGeometry x="0.4545" y="10" relative="1" as="geometry">
+            <mxPoint x="80" y="160" as="sourcePoint" />
+            <mxPoint x="250" y="160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-20" value="Medical Record Updated" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="340" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-22" value="Treatment Received " style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="530" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-24" value="Bill Paid " style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#0050ef;strokeColor=#001DBC;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="100" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-25" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;" edge="1" parent="1" target="KeRvzegLbMq9LQUjmtA0-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="343.75" as="sourcePoint" />
+            <mxPoint x="-170" y="331.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-26" value="Receive Treatment" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#0050ef;" edge="1" parent="1" source="KeRvzegLbMq9LQUjmtA0-20" target="KeRvzegLbMq9LQUjmtA0-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-220" y="330" as="sourcePoint" />
+            <mxPoint x="-50" y="160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-27" value="Pay Βill" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#0050ef;" edge="1" parent="1" source="KeRvzegLbMq9LQUjmtA0-22" target="KeRvzegLbMq9LQUjmtA0-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="500" as="sourcePoint" />
+            <mxPoint x="-100" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-200" y="600" />
+              <mxPoint x="-10" y="600" />
+              <mxPoint x="-10" y="480" />
+              <mxPoint x="160" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-28" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#0050ef;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KeRvzegLbMq9LQUjmtA0-24" target="24f968d109e7d6b4-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="660" as="sourcePoint" />
+            <mxPoint x="155" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeRvzegLbMq9LQUjmtA0-34" value="Patient Request Appointment In Person" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#001DBC;fontFamily=Verdana;fontSize=12;align=left;fillColor=#0050ef;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="382b91b5511bd0f7-1">
+          <mxGeometry x="0.1565" y="13" relative="1" as="geometry">
+            <mxPoint x="-370" y="250" as="sourcePoint" />
+            <mxPoint x="940" y="320" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
